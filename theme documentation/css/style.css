@@ -1,0 +1,123 @@
+.mar {
+    margin: 20px 0;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.labs-sidebar {
+    position: fixed;
+    width: 260px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #141414;
+    z-index: 99;
+    overflow-y: auto;
+}
+
+.text-logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    background: #000;
+}
+
+.text-logo > span:nth-of-type(1) {
+    color: #31d095;
+}
+
+.text-logo > span:nth-of-type(2) {
+    color: #90cd5c;
+}
+
+ul.labs-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.labs-menu > li.title {
+    color: #fff;
+    font-weight: 700;
+    text-align: right;
+    padding: 5px 25px;
+    background: #000;
+}
+
+ul.labs-menu > li > a {
+    display: block;
+    padding: 10px 25px;
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+}
+
+ul.labs-menu > li > a:hover {
+    background: #000;
+}
+
+ul.labs-menu > li > a:focus,
+ul.labs-menu > li > a:hover {
+    text-decoration: none;
+}
+
+ul.labs-menu > li.active > a {
+    color: #31d095;
+    background: #000;
+}
+
+
+.labs-content {
+    padding-left: 320px;
+    padding-right: 60px;
+}
+
+.cov {
+    display: block;
+    height: 100vh;
+    border-bottom: 1px solid #ccc;
+}
+
+.cov > .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.cov > .table > .cell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.cov > .table > .cell > .box {
+    display: inline-block;
+    text-align: center;
+} 
+
+.cov > .table > .cell > .box > h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.sec {
+    border-bottom: 1px solid #ccc;
+    padding: 40px 0;
+}
+
+.c {
+    padding: 30px 0;
+}
+
+.c > p {
+    margin-bottom: 0;
+}

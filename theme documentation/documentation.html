@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Documentation Alone - Personal Resume/CV/Portfolio Html Template</title>
+
+        <!-- Bootstrap CSS files -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- custom style css -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Include required JS files -->
+        <script type="text/javascript" src="js/shCore.js"></script>
+
+        <!--
+            At least one brush, here we choose JS. You need to include a brush for every
+            language you want to highlight
+        -->
+        <script type="text/javascript" src="js/shBrushJScript.js"></script>
+        <script type="text/javascript" src="js/shBrushXml.js"></script>
+        <script type="text/javascript" src="js/shBrushCss.js"></script>
+        <script type="text/javascript" src="js/shBrushPhp.js"></script>
+
+        <!-- Include *at least* the core style and default theme -->
+        <link href="css/shCore.css" rel="stylesheet" type="text/css" />
+        <link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+
+        <!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="labs-wrapper">
+            <div class="labs-sidebar">
+                <ul class="labs-menu">
+                    <li><a href="#instalation">Instalation</a></li>
+                    <li class="title">Structure</li>
+                    <li><a href="#html">HTML</a></li>
+                    <li><a href="#css">CSS</a></li>
+                    <li><a href="#js">Javascript</a></li>
+                    <li class="title">Theme Modification</li>
+                    <li><a href="#link-font">Font</a></li>
+                    <li><a href="#link-intro">Intro</a></li>
+                    <li><a href="#link-about">About</a></li>
+                    <li><a href="#link-skills">Skills</a></li>
+                    <li><a href="#link-resume">Resume</a></li>
+                    <li><a href="#link-fun-fact">Fun Fact</a></li>
+                    <li><a href="#link-portfolio">Portfolio</a></li>
+                    <li><a href="#link-testimonial">Testimonial</a></li>
+                    <li><a href="#link-contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="labs-content">
+                <div id="thanks" class="cov">
+                    <div class="table">
+                        <div class="cell">
+                            <div class="box">
+                                <h1>Alone Documentation</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="instalation" class="sec">
+                    <h2>How To Install Your Alone Theme?</h2>
+                    <ol>
+                       <li>Extract your theme files (.zip).</li>
+                       <li>Open your FTP program</li>
+                       <li>Connect to your server</li>
+                       <li>Move all files from your pc to your server ( your host ).</li>
+                       <li>Done.</li>
+                    </ol>
+                </div>
+
+                <div id="html" class="sec">
+                    <h2>HTML Stucture</h2>
+                    <h5>&bull; Here section <code>id</code> is <code>#intro</code> the target for Intro link in menu, when you click on Intro in menu it will move you to Intro Section.</h5>
+                    <div class="mar">
+                        <pre class="brush: html">
+                            <!-- ==================
+                                Section Intro Start
+                            =============================================================================== -->
+                            <section id="intro" class="intro gradient" style="background-image: url('http://placehold.it/1280x800');">
+                                <div class="container">
+                                    <div class="text-intro">
+                                        <div class="inner-text-intro">
+
+                                            <!-- Your Name -->
+                                            <h2>I'M</h2>
+                                            <h1>The Reps</h1>
+
+                                            <!-- Your Passion -->
+                                            <p>Web Designer, Front End Developer And Photography</p>
+
+                                            <!-- Your Social Media -->
+                                            <div class="social">
+                                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                                                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                                <a href="#" class="behance"><i class="fa fa-behance"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- End Section Intro -->
+                        </pre>
+                    </div>
+                </div>
+
+                <div id="css" class="sec">
+                    <h2>CSS file & Stucture</h2>
+                    <h5>&bull; After unzip the Theme files you can see Alone/assets/css folder. That css folder contains Bootstrap css, jQuery plugin css, & style.css</h5>
+                    <h5>&bull; I am using one main CSS file name is style.css in this theme which you are free to modify depending on the customization you require.</h5>
+                    <div class="mar">
+                        <pre class="brush: css">
+                            /*====================================================
+                                03. Section Intro
+                            ====================================================*/
+                            .intro {
+                                height: 100vh;
+                                position: relative;
+                                background-size: cover;
+                            }
+
+                            .text-intro {
+                                position: absolute;
+                                bottom: 160px;
+                                display: inline-block;
+                            }
+
+                            .inner-text-intro {
+                                position: relative;
+                            }
+
+                            .inner-text-intro h2 {
+                                margin: 0;
+                                white-space: nowrap;
+                                font-size: 75px;
+                                line-height: 1;
+                                color: #fff;
+                            }
+
+                            .inner-text-intro h1 {
+                                margin: 0 0 10px;
+                                white-space: nowrap;
+                                font-size: 100px;
+                                line-height: 1;
+                                color: #fff;
+                            }
+
+                            .inner-text-intro p {
+                                color: #fff;
+                                font-size: 28px;
+                                line-height: 35px;
+                                margin-bottom: 20px;
+                            }
+
+                            .social a {
+                                display: inline-block;
+                                background: #fff;
+                                color: #000;
+                                width: 40px;
+                                height: 40px;
+                                text-align: center;
+                                line-height: 40px;
+                                font-size: 18px;
+                                margin-right: 5px;
+                                border-radius: 4px;
+                            }
+
+                        </pre>
+                    </div>
+
+                    <h5>Bootstrap css, 3rd party jQuery plugin css and other css.</h5>
+                    <div class="mar">
+                        <pre class="brush: html">
+                            <!-- STYLESHEET -->
+                            <!-- Ion Icons -->
+                            <link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css">
+                            <!-- Bootstrap -->
+                            <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+                            <!-- Animate -->
+                            <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+                            <!-- Magnific Popup -->
+                            <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+                            <!-- Owl Carousel -->
+                            <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+                            <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+                            <!-- Main Css -->
+                            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+                            <!-- Color Schemes Css -->
+                            <link id="colors" rel="stylesheet" type="text/css" href="assets/css/colors/skin-default.css">
+                            <!-- Theme Schemes Css -->
+                            <link id="themes" rel="stylesheet" type="text/css" href="assets/css/themes/theme-dark.css">
+                        </pre>
+                    </div>
+                </div>
+
+                <div id="js" class="sec">
+                    <h2>JS Stucture</h2>
+                    <h5>&bull; After unzip the Theme files you can see Alone/assets/js folder. That js folder contains Library jQuery, Bootstrap js, jQuery plugin js, & script.js</h5>
+                    <div class="mar">
+                        <pre class="brush: html">
+                            <!-- JAVASCRIPT -->
+                            <!-- JQuery Library -->
+                            <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
+                            <!-- Bootstrap -->
+                            <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+                            <!-- Masonry Js -->
+                            <script type="text/javascript" src="assets/js/masonry.pkgd.min.js"></script>
+                            <!-- Isotope Js -->
+                            <script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
+                            <script type="text/javascript" src="assets/js/jquery.isotope.sloppy-masonry.min.js"></script>
+                            <!-- Magnific Popup Js -->
+                            <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+                            <!-- Owl Carousel Js -->
+                            <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+                            <!-- Waypoint Js -->
+                            <script type="text/javascript" src="assets/js/waypoints.min.js"></script>
+                            <!-- CounterUp Js -->
+                            <script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>
+                            <!-- Validator Js -->
+                            <script type="text/javascript" src="assets/js/validator.min.js"></script>
+                            <!-- WOW Js -->
+                            <script type="text/javascript" src="assets/js/wow.min.js"></script>
+                            <!-- Google Map  -->
+                            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9TeOcXS9iUYpaYz4E4mLV-VOdC8KIh4E&amp;libraries=places&amp;sensor=false"></script>
+                            <!-- Main Js -->
+                            <script type="text/javascript" src="assets/js/script.js"></script>
+                            <!-- Init Wow Js -->
+                            <script type="text/javascript">
+                                var wow = new WOW(
+                                  {
+                                    mobile: false
+                                  }
+                                );
+                                wow.init();
+                            </script>
+                        </pre>
+                    </div>
+                </div>
+
+                <div id="link-font" class="sec">
+                    <h2>Using Font Icons?</h2>
+                    <h5>&bull; Font-Icons: This theme used The Font Awesome and Stroke Icons Font.</h5>
+                    <ol>
+                        <li>Using Font Awesome
+                            <p>Link : <a href="#">http://fontawesome.io/icons/</a></p>
+                            <p><code>class="fa fa-home"</code></p>
+                            <div class="mar">
+                                <pre class="brush: html">
+                                    <i class="fa fa-home"></i>
+                                </pre>
+                            </div>
+                        </li>
+                        <li>Using Stroke Icons Font
+                            <p>Link : <a href="#">http://themes-pixeden.com/font-demos/7-stroke/</a></p>
+                            <p><code>class="pe-7s-photo"</code></p>
+                            <div class="mar">
+                                <pre class="brush: html">
+                                    <span class="pe-7s-photo"></span>
+                                </pre>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+
+                <div id="link-intro" class="sec">
+                    <h2>How To Customize And Change Data On Section Intro?</h2>
+                    <h4>At index-*.html with your editor :</h4>
+                    <ol>
+                        <li>Change background on Section Intro</li>
+                        <li>Search for ( <code>Section Intro Start</code> )</li>
+                        <li>You will find the following code:
+                            <div class="mar">
+                                <pre class="brush: html">
+                                <!-- ==================
+                                    Section Intro Start
+                                =============================================================================== -->
+                                <section id="intro" class="intro gradient" style="background-image: url('http://placehold.it/1280x800');">
+                                </pre>
+                            </div>
+                        </li>
+                        <li>Change image url to yours Image url.</li>
+                        <li>to change your <code>name</code>, <code>passion</code> and <code>link social media</code> on section intro you will find the following code:<br>
+                            <div class="mar">
+                                <pre class="brush: html">
+                                    <!-- Your Name -->
+                                    <h2>I'M</h2>
+                                    <h1>The Reps</h1>
+
+                                    <!-- Your Passion -->
+                                    <p>Web Designer, Front End Developer And Photography</p>
+
+                                    <!-- Your Social Media -->
+                                    <div class="social">
+                                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                                        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#" class="behance"><i class="fa fa-behance"></i></a>
+                                    </div>
+                                </pre>
+                            </div>
+                        </li>
+                        <li>just follow the instructors at the previous code as it explain it self what you should change.</li>
+                        <li>Congratulations</li>
+                    </ol>
+                </div>
+
+                <div id="link-about" class="sec">
+                    <h2>How To Change Your Profile Details On Section About?</h2>
+                    <h4>At index-*.html with your editor :</h4>
+                    <ol>
+                        <li>Search for ( About Image )</li>
+                        <li>You will find the following code:
+                            <div class="mar">
+                                <pre class="brush: html">
+                                    <!-- About Image -->
+                                    <div class="img-about">
+                                        <img src="http://placehold.it/400x400" alt="" />
+                                    </div>
+                                </pre>
+                            </div>
+                        </li>
+                        <li>Change image url to yours Image url.</li>
+                        <li>Search for ( About Story )</li>
+                        <li>You will find the following code:
+                            <div class="mar">
+                                <pre class="brush: html">
+                                    <!-- About Story -->
+                                    <div class="col-md-8 col-sm-8 story">
+                                        <p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text making it over 2000 years old.</p>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                        <p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text making it over 2000 years old.</p>
+                                    </div>
+                                </pre>
+                            </div>
+                        </li>
+                        <li>Change your story.</li>
+                        <li>Search for ( Link Download Your CV )</li>
+                        <li>You will find the following code:
+                            <div class="mar">
+                                <pre class="brush: html">
+                                    <!-- Link Download Your CV -->
+                                    <a href="#" class="button-alone"><i class="fa fa-download"></i> Download CV</a>
+                                </pre>
+                            </div>
+                        </li>
+                        <li>Change attribute <code>href</code> to link download document your CV.</li>
+                        <li>Search for ( About Contact Info )</li>
+                        <li>You will find the following code:
+                            <div class="mar">
+                                <pre class="brush: html">
+                                    <!-- About Contact Info -->
+                                    <div class="col-md-4 col-sm-4 info">
+                                        <ul>
+
+                                            <!-- About Info Address -->
+                                            <li>
+                                                <h3><i class="fa fa-map-marker"></i> ADDRESS</h3>
+                                                <p>Nr. 6, 21 Tamansari Street, Kerjo</p>
+                                            </li>
+
+                                            <!-- About Info Date Of Birth -->
+                                            <li>
+                                                <h3><i class="fa fa-calendar"></i> DATE OF BIRTH</h3>
+                                                <p>15 Mart 1995</p>
+                                            </li>
+
+                                            <!-- About Info Phone Number -->
+                                            <li>
+                                                <h3><i class="fa fa-phone"></i> PHONE NUMBER</h3>
+                                                <p>+(01) 234 567 89</p>
+                                            </li>
+
+                                            <!-- About Info Email -->
+                                            <li>
+                                                <h3><i class="fa fa-envelope-o"></i> EMAIL</h3>
+                                                <p>alone@domain.com</p>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </pre>
+                            </div>
+                        </li>
+                        <li>Change the <code>li</code> tag text to your information contact.</li>
+                        <li>Search for ( Service Box )</li>
+                        <li>You will find the following code:
+                            <div class="mar">
+                                <pre class="brush: html">
+                                    <!-- Service Box -->
+                                    <div class="col-md-3 col-sm-6 box-service wow fadeInUp" data-wow-delay="0.2s">
+
+                                        <!-- Service Icon -->
+                                        <div class="icon-service">
+                                            <span class="pe-7s-browser"></span>
+                                        </div>
+
+                                        <!-- Service Name -->
+                                        <h3>Web Design</h3>
+
+                                        <!-- Service Description -->
+                                        <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+
+                                    </div>
+                                </pre>
+                            </div>
+                        </li>
+                        <li>just follow the instructors at the previous code as it explain it self what you should change.</li>
+                        <li>Congratulations</li>
+                    </ol>
+                </div>
+
+                <div id="link-skills" class="sec">
+                    <h2>How To Customize And Change Data On Section Skills?</h2>
+                    <h4>At index-*.html with your editor :</h4>
+                    <ol>
+                        <li>Search for ( Your Skill Name )</li>
+                        <li>You will find the following code:
+                            <div class="mar">
+                                <pre class="brush: html">
+                                    <!-- Your Skill Name -->
+                                    <h3 class="skills-name">HTML5</h3>
+
+                                    <div class="skills-progress" data-progress="85">
+                                        <div class="skill-bar-inner"></div>
+
+                                        <!-- Your Skill Value -->
+                                        <span>85%</span>
+
+                                    </div>
+                                </pre>
+                            </div>
+                        </li>
+                        <li>Change the <code>h3</code> tag text to your skill and <code>span</code> tag text to your persentase skill. And change atribute <code>data-progress</code> that has 85 value ( demo value ) to yours percentage, look at the photo up.</li>
+                        <li>Congratulations</li>
+                    </ol>
+                </div>
+
+                <div id="link-resume" class="sec">
+                    <h2>How To Change Your Resume Data On Section Resume?</h2>
+                    <h4>At index-*.html with your editor :</h4>
+                    <ol>
+                        <li>Search for ( Resume List )</li>
+                        <li>You will find the following code:
+                            <div class="mar">
+                                <pre class="brush: html">
+                                    <!-- Resume List -->
+                                    <div class="list_resume wow fadeInUp" data-wow-delay="0.2s">
+
+                                        <!-- Resume Years ( from -to ) -->
+                                        <div class="years">2014-2017</div>
+
+                                        <!-- Resume School -->
+                                        <h1>Front End Developer, Apple Inc</h1>
+
+                                        <!-- Resume Description -->
+                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+
+                                    </div>
+                                </pre>
+                            </div>
+                        </li>
+                        <li>just follow the instructors at the previous code as it explain it self what you should change.</li>
+                        <li>Congratulations</li>
+                    </ol>
+                </div>
+
+                <div id="link-fun-fact" class="sec">
+                    <h2>How To Customize And Change Data On Section Fun Fact?</h2>
+                    <h4>At index-*.html with your editor :</h4>
+                    <ol>
+                        <li>Change your Fun Factor on Fun Fact section you will find the following code:<br>
+                            <div class="mar">
+                                <pre class="brush: html">
+                                    <!-- Fun Fact List -->
+                                    <div class="col-md-3 col-sm-6 box_fun_fact">
+
+                                        <!-- Fun Fact Icon -->
+                                        <div class="icon_fun_fact">
+                                            <span class="pe-7s-smile"></span>
+                                        </div>
+
+                                        <!-- Fun Fact Name -->
+                                        <h3>Happy Clients</h3>
+
+                                        <!-- Fun Fact Number -->
+                                        <p class="number">1070</p>
+
+                                    </div>
+                                </pre>
+                            </div>
+                        </li>
+                        <li>Change the <code>h3</code> tag text to your fun factor title.</li>
+                        <li>Change the <code>p</code> tag text to your number fun factor.</li>
+                        <li>Congratulations</li>
+                    </ol>
+                </div>
+
+                <div id="link-portfolio" class="sec">
+                    <h2>How To Customize And Change Data On Section Portfolio?</h2>
+                    <h4>At index-*.html with your editor :</h4>
+                    <p><b>First step</b>: Search for this word <b><i>Filter Portfolio</i></b> You will find the following code:</p>
+                    <div class="mar">
+                        <pre class="brush: html">
+                            <!-- Filter Portfolio -->
+                            <div class="filters-portfolio">
+                                <ul class="filters">
+                                    <li class="filter active" data-filter="*">All</li>
+                                    <li class="filter" data-filter=".photoshop">Photoshop</li>
+                                    <li class="filter" data-filter=".web">Web</li>
+                                    <li class="filter" data-filter=".design">Design</li>
+                                </ul>
+                            </div>
+                        </pre>
+                    </div>
+                    <p>just replace <b><i>design</i></b> for category you have.</p>
+                    <hr>
+                    <p><b>Second step</b>: put your chooses category on Item Portfolio to find the Item Portfolio make another search for "<b>Item Portfolio</b>". For modal portfolio link "<code>id</code> on <b>Portfolio Modal</b> must be same on <code>href</code> <b>Portfolio Link</b>", you will find the following code:</p>
+                    <div class="mar">
+                        <pre class="brush: html">
+                            <!-- Item Portfolio -->
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 photoshop">
+                                <a class="modal-image" href="#image-modal-1">
+
+                                    <!-- Portfolio Image -->
+                                    <img src="http://placehold.it/500x500" alt=""/>
+
+                                    <div class="item-hover">
+
+                                        <!-- Portfolio Title -->
+                                        <h3>Web Design</h3>
+
+                                        <!-- Portfolio Category -->
+                                        <p>Photoshop</p>
+
+                                    </div>
+                                </a>
+
+                                <!-- Portfolio Modal -->
+                                <div id="image-modal-1" class="mfp-hide modal-box">
+
+                                    <!-- Portfolio Image -->
+                                    <img src="http://placehold.it/500x500" alt="">
+
+                                    <div class="modal-box-content">
+
+                                        <!-- Portfolio Title -->
+                                        <h3>Web Design</h3>
+
+                                        <!-- Portfolio Category -->
+                                        <span>Photoshop</span>
+
+                                        <!-- Portfolio Description -->
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </pre>
+                    </div>
+                </div>
+
+                <div id="link-testimonial" class="sec">
+                    <h2>How To Customize Testimonials Data On Section Testimonial?</h2>
+                    <h4>At index-*.html with your editor :</h4>
+                    <ol>
+                        <li>Search for ( Testimonial List )</li>
+                        <li>You will find the following code:
+                            <div class="mar">
+                                <pre class="brush: html">
+                                    <!-- Testimonial List -->
+                                    <div class="items owl-item">
+                                        <div class="photo">
+
+                                            <!-- Testimonial Image -->
+                                            <img src="http://placehold.it/150x150" alt=""/>
+
+                                        </div>
+
+                                        <!-- Testimonial Content -->
+                                        <div class="description">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form.</div>
+
+                                        <!-- Testimonial Name -->
+                                        <div class="who-name">Telo Sugondo</div>
+
+                                        <!-- Testimonial Company -->
+                                        <div class="company-name">Company Name</div>
+
+                                    </div>
+                                </pre>
+                            </div>
+                        </li>
+                        <li>just follow the instructors at the previous code as it explain it self what you should change.</li>
+                    </ol>
+                </div>
+
+                <div id="link-contact" class="sec">
+                    <h2>How To Change You Contact Details On Section Contact?</h2>
+                    <h4>At <code>index-*.html</code> with your editor :</h4>
+
+                    <ol>
+                        <li>Change coordinates google map</li>
+                        <li>Open file <code>script.js</code> from folder Alone/assets/js</li>
+                        <li>Search for ( <code>googlemap</code> )</li>
+                        <li>You will find the following code:
+                            <div class="mar">
+                                <pre class="brush: js">
+                                    center: new google.maps.LatLng(-7.681902, 110.844028), //change the coordinates
+                                </pre>
+                            </div>
+                            <div class="mar">
+                                <pre class="brush: js">
+                                    position: new google.maps.LatLng(-7.681902, 110.844028)  //change the coordinates
+                                </pre>
+                            </div>
+                            <div class="mar">
+                                <pre class="brush: js">
+                                    content: "<div style='color:#222'><b>Robbee Labs</b><br/>Nr. 6, 21 Tamansari Karanganyar<br/> Kerjo</div>"  //change your address
+                                </pre>
+                            </div>
+                        </li>
+                        <li>Change your coordinates and your address.</li>
+                        <li>Congratulations.</li>
+                    </ol>
+                </div>
+
+                <div class="sec">
+                    <h2>Contact Form PHP?</h2>
+                    <ol>
+                        <li>Open <code>contact-form.php</code> from folder Alone/assets</li>
+                        <li>Search for ( Your Email )</li>
+                        <li>You will find the following code:
+                            <div class="mar">
+                                <pre class="brush: php">
+                                    // Your email
+                                    $EmailTo = "your@email.com";
+                                </pre>
+                            </div>
+                        </li>
+                        <li>Change to yours email.</li>
+                    </ol>
+                </div>
+
+                <div id="link-credits" class="sec">
+                    <h2>Plugins/Frameworks I Use For This Theme?</h2>
+                    <ol>
+                        <li>Bootstrap : <a href="http://getbootstrap.com/" target="_blank">getbootstrap.com</a></li>
+                        <li>Validator : <a href="http://1000hz.github.io/bootstrap-validator/" target="_blank">1000hz.github.io/bootstrap-validator</a></li>
+                        <li>JQuery : <a href="http://jquery.com/" target="_blank">jquery.com</a></li>
+                        <li>Isotope : <a href="http://isotope.metafizzy.co/" target="_blank">isotope.metafizzy.co</a></li>
+                        <li>Masonry : <a href="http://masonry.desandro.com/" target="_blank">masonry.desandro.com</a></li>
+                        <li>Magnific Popup : <a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">dimsemenov.com/plugins/magnific-popup</a></li>
+                        <li>Owl Carousel : <a href="https://github.com/OwlFonk/OwlCarousel" target="_blank">github.com/OwlFonk/OwlCarousel</a></li>
+                        <li>Waypoints : <a href="http://imakewebthings.com/waypoints/" target="_blank">imakewebthings.com/waypoints</a></li>
+                        <li>CounterUp : <a href="https://github.com/bfintal/Counter-Up" target="_blank">github.com/bfintal/Counter-Up</a></li>
+                        <li>Parallax : <a href="http://markdalgleish.com/projects/stellar.js" target="_blank">http://markdalgleish.com/projects/stellar.js</a></li>
+                        <li>Particles Js : <a href="https://github.com/VincentGarreau/particles.js/" target="_blank">https://github.com/VincentGarreau/particles.js/</a></li>
+                        <li>YTPlayer Js Js : <a href="https://github.com/pupunzi/jquery.mb.YTPlayer" target="_blank">https://github.com/pupunzi/jquery.mb.YTPlayer</a></li>
+                        <li>WOW : <a href="http://mynameismatthieu.com/WOW/" target="_blank">mynameismatthieu.com/WOW</a></li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Library Jquery -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+
+        <!-- Bootstrap JS files -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <!-- Custom JS files -->
+        <script type="text/javascript" src="js/script.js"></script>
+
+        <!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
+        <script type="text/javascript">
+             SyntaxHighlighter.all()
+        </script>
+    </body>
+</html>
