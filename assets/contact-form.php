@@ -6,7 +6,7 @@
     $message    = $_POST['message'];
 
     // Your email
-    $EmailTo = "your@email.com";
+    $EmailTo = "alina_zer@tutanota.com";
 
     // prepare email body text
     $Body = "Name: ";

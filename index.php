@@ -944,7 +944,7 @@
                         </div>
 
                         <!-- Testimonial Content -->
-                        <div class="description">I am really happy with your service, it is exceptional, Alina is just great. When I have a question she answer it at once, she has more than an outstanding customer service. After having a bad experience with my old web designer company, I would say that Alina is very professional and her knowledge is incredible, she also solves problems very fast, I am impressed. I reommend her to all my customers, friends and clients. Thank you for your patience and your great job.</div>
+                        <div class="description">I am really happy with your service, it is exceptional, Alina is just great. When I have a question she answer it at once, she has more than an outstanding customer service. After having a bad experience with my old web designer company, I would say that Alina is very professional and her knowledge is incredible, she also solves problems very fast, I am impressed. I recommend her to all my customers, friends and clients. Thank you for your patience and your great job.</div>
 
                         <!-- Testimonial Name -->
                         <div class="who-name">Alina</div>
