@@ -829,7 +829,7 @@
                                     <h3>Project Title</h3>
 
                                     <!-- Portfolio Category -->
-                                    <p>Web</p>
+                                    <p>Photoshop Design</p>
 
                                 </div>
                             </a>
@@ -844,7 +844,7 @@
                                     <h3>Project Title</h3>
 
                                     <!-- Portfolio Category -->
-                                    <span>Web</span>
+                                    <span>Photoshop Design</span>
 
                                     <!-- Portfolio Description -->
                                     <p>Light Bootstrap Dashboard with Angular2</p>
@@ -853,8 +853,8 @@
                             </div>
                         </div>
                         <!-- Item Portfolio -->
-                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 web">
-                            <a class="modal-image" href="#image-modal-6">
+                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 photoshop">
+                            <a class="modal-image" href="#image-modal-10">
 
                                 <!-- Portfolio Image -->
                                 <img src="assets/img/TRENDYTA-COVER-500x470.jpg" alt="" />
@@ -867,7 +867,7 @@
 
                                 </div>
                             </a>
-                            <div id="image-modal-6" class="mfp-hide modal-box">
+                            <div id="image-modal-10" class="mfp-hide modal-box">
                                 <img src="assets/img/TRENDYTA-FULL.jpg" alt="">
                                 <div class="modal-box-content">
 
