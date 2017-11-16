@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Title -->
-    <title>Web Developer | Jackie Pareja</title>
+    <title>Web Developer | Alina Zerguine</title>
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Athiti:300,400" rel="stylesheet">
