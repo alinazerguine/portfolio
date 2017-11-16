@@ -857,7 +857,7 @@
                             <a class="modal-image" href="#image-modal-6">
 
                                 <!-- Portfolio Image -->
-                                <img src="assets/img/TRENDYTA-COVER-500X470.jpg" alt="" />
+                                <img src="assets/img/TRENDYTA-COVER-500x470.jpg" alt="" />
 
                                 <div class="item-hover">
                                     <h3>Project Title</h3>
