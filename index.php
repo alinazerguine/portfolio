@@ -939,7 +939,7 @@
                         <div class="photo">
 
                             <!-- Testimonial Image -->
-                            <img src="assets/img/alian_spain.jpg" alt="" />
+                            <img src="assets/img/alina_spain.jpg" alt="" />
 
                         </div>
 
