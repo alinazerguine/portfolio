@@ -979,18 +979,18 @@
                         <div class="photo">
 
                             <!-- Testimonial Image -->
-                            <img src="http://placehold.it/200x200" alt="" />
+                            <img src="assets/img/CEO.png" alt="" />
 
                         </div>
 
                         <!-- Testimonial Content -->
-                        <div class="description">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form.</div>
+                        <div class="description">If you're starting a new business or upgrading an existing site, I strongly recommend Alina. She is friendly, knowledgeable, and dedicated to producing a high quality product. She worked very hard to create my website. Alina was always available to answer questions, make improvements, and provide guidance. Even after the site was completed, she continued to offer unsolicited assistance. On a scale of 1-10, I give her a 10. Thank you.</div>
 
                         <!-- Testimonial Name -->
-                        <div class="who-name">Ponikem Muniani</div>
+                        <div class="who-name">Hector Padilla</div>
 
                         <!-- Testimonial Company -->
-                        <div class="company-name">Company Name</div>
+                        <div class="company-name">HP CAPITAL INVESTMENTS.INC</div>
 
                     </div>
 
