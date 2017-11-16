@@ -939,18 +939,18 @@
                         <div class="photo">
 
                             <!-- Testimonial Image -->
-                            <img src="http://placehold.it/200x200" alt="" />
+                            <img src="assets/img/alian_spain.jpg" alt="" />
 
                         </div>
 
                         <!-- Testimonial Content -->
-                        <div class="description">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form.</div>
+                        <div class="description">I am really happy with your service, it is exceptional, Alina is just great. When I have a question she answer it at once, she has more than an outstanding customer service. After having a bad experience with my old web designer company, I would say that Alina is very professional and her knowledge is incredible, she also solves problems very fast, I am impressed. I reommend her to all my customers, friends and clients. Thank you for your patience and your great job.</div>
 
                         <!-- Testimonial Name -->
-                        <div class="who-name">Telo Sugondo</div>
+                        <div class="who-name">Alina</div>
 
                         <!-- Testimonial Company -->
-                        <div class="company-name">Company Name</div>
+                        <div class="company-name">SpainPropertyshop</div>
 
                     </div>
 
@@ -959,18 +959,18 @@
                         <div class="photo">
 
                             <!-- Testimonial Image -->
-                            <img src="http://placehold.it/200x200" alt="" />
+                            <img src="assets/img/logo_03.png" alt="" />
 
                         </div>
 
                         <!-- Testimonial Content -->
-                        <div class="description">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form.</div>
+                        <div class="description">Alina has taken our business to the next level. Her professional solutions continue to impress us and her knowledge has catapulted our sales. She has created 4 different websites for our companies; all with excellent results. I will sure use her for all my upcoming projects and recommend her !!!</div>
 
                         <!-- Testimonial Name -->
-                        <div class="who-name">Angelina Margeta</div>
+                        <div class="who-name">CT Han</div>
 
                         <!-- Testimonial Company -->
-                        <div class="company-name">Company Name</div>
+                        <div class="company-name">www.sidelineinteractive.com</div>
 
                     </div>
 
