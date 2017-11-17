@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Title -->
-    <title>Web Developer | Alina Zerguine</title>
+    <title>Alina Zerguine | Web Developer</title>
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Athiti:300,400" rel="stylesheet">
@@ -36,7 +36,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/jp-logo.jpg" />
+    <link rel="shortcut icon" href="assets/img/alina-logo.png" />
 
     <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -98,7 +98,7 @@
         <!-- ==================
                 Section Intro Start
             =============================================================================== -->
-        <section id="intro" class="intro gradient" data-stellar-background-ratio="0.6" >
+        <section id="intro" class="intro gradient" data-stellar-background-ratio="0.6" style="background-image: url('http://placehold.it/1280x800');">
             <div id="particles-js"></div>
             <div class="container">
                 <div class="text-intro">
