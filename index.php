@@ -70,7 +70,7 @@
             <div class="container">
                 <div class="logo">
                     <h3>
-                        <a href="#"><img id="jpLogo" src="assets/img/jp-logo.jpg"></a>
+                        <a href="#"><img id="jpLogo" src="assets/img/alina-logo.jpg"></a>
                     </h3>
                 </div>
                 <div class="menu_mobile">
