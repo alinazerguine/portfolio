@@ -98,7 +98,7 @@
         <!-- ==================
                 Section Intro Start
             =============================================================================== -->
-        <section id="intro" class="intro gradient" data-stellar-background-ratio="0.6" style="background-image: url('http://placehold.it/1280x800');">
+        <section id="intro" class="intro gradient" data-stellar-background-ratio="0.6" >
             <div id="particles-js"></div>
             <div class="container">
                 <div class="text-intro">
