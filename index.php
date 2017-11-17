@@ -52,7 +52,7 @@
                 Preloader Start
             =============================================================================== -->
         <div class="wrap-preloader">
-            <div class="preloader">
+            <div class="preloader"> 
                 <div class="lines">
                     <div class="line line-1"></div>
                     <div class="line line-2"></div>
