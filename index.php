@@ -317,11 +317,31 @@
                             <span><i class="fa fa-check" aria-hidden="true"></i></span>
 
                         </div>
+                        <!-- Your Skill Name -->
+                        <h3 class="skills-name">Drupal</h3>
+
+                        <div class="skills-progress" data-progress="100">
+                            <div class="skill-bar-inner"></div>
+
+                            <!-- Your Skill Value -->
+                            <span><i class="fa fa-check" aria-hidden="true"></i></span>
+
+                        </div>
                     </div>
 
 
                     <div class="col-md-6 col-sm-6 skills-list">
 
+                        <!-- Your Skill Name -->
+                        <h3 class="skills-name">Joomla</h3>
+
+                        <div class="skills-progress" data-progress="100">
+                            <div class="skill-bar-inner"></div>
+
+                            <!-- Your Skill Value -->
+                            <span><i class="fa fa-check" aria-hidden="true"></i></span>
+
+                        </div>
                         <!-- Your Skill Name -->
                         <h3 class="skills-name">Github</h3>
 
