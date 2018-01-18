@@ -327,6 +327,17 @@
                             <span><i class="fa fa-check" aria-hidden="true"></i></span>
 
                         </div>
+
+                        <!-- Your Skill Name -->
+                        <h3 class="skills-name">Smart Contract</h3>
+
+                        <div class="skills-progress" data-progress="100">
+                            <div class="skill-bar-inner"></div>
+
+                            <!-- Your Skill Value -->
+                            <span><i class="fa fa-check" aria-hidden="true"></i></span>
+
+                        </div>
                     </div>
 
 
@@ -387,7 +398,7 @@
                         </div>
 
                         <!-- Your Skill Name -->
-                        <h3 class="skills-name">Server Management</h3>
+                        <h3 class="skills-name">Ethereum</h3>
 
                         <div class="skills-progress" data-progress="100">
                             <div class="skill-bar-inner"></div>
@@ -397,7 +408,16 @@
 
                         </div>
 
+                        <!-- Your Skill Name -->
+                        <h3 class="skills-name">ERC20, ERC721 Token</h3>
 
+                        <div class="skills-progress" data-progress="100">
+                            <div class="skill-bar-inner"></div>
+
+                            <!-- Your Skill Value -->
+                            <span><i class="fa fa-check" aria-hidden="true"></i></span>
+
+                        </div>
 
                     </div>
                 </div>
